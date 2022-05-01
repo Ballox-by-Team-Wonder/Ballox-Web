@@ -61,7 +61,7 @@
 --------------------------------*/
 
 #impact {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/bg/blackout-again.jpg) fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(/ballox/unseen-histories-9RbdjQ3nCEk-unsplash.jpg) fixed center center;
   background-size: cover;
   padding: 80px 10% 60px 10%;
 }
